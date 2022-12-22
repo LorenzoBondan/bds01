@@ -21,7 +21,7 @@ public class Employee {
 	@ManyToOne
 	@JoinColumn(name = "department_id")
 	public Department department;
-	
+
 	public Employee() {
 	}
 
@@ -63,4 +63,6 @@ public class Employee {
 	public void setDepartment(Department department) {
 		this.department = department;
 	}
+
+
 }
